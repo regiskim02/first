@@ -1,0 +1,292 @@
+<h1>isso é um título</h1>
+<!-- e isso é um comentario-->
+
+<!--Lição de atributos-->
+
+<img src="" alt="">
+<input type="text">
+<input type="text" disabled> <!--Isso é um atributo booleano-->
+
+<a href="">link</a>
+
+<!--Atributos globais-->
+
+<div class="carrinho" contenteditable="true" id="cart1" tabindex="3">
+    conteudo
+</div>
+
+<div class="carrinho" data-id="" id="cart2" style="color: aqua;" tabindex="1" title="definir um título">
+    conteudo
+</div>
+
+<div class="carrinho" hidden tabindex="2">
+    conteudo
+</div>
+
+<!--Aninhamento de tags-->
+
+<p>
+    Vou <em>escrever</em> um parágrafo<!--esse <em> é para dar enfaze-->
+</p>
+
+<p>Esse é um novo parágrafo</p>
+
+<p>Essa tag quebra a <br>linha</p>
+
+<!--Praticar-->
+
+<h1>Pratica</h1>
+<p>
+    Estou escrevendo o meu primeiro <em>parágrafo</em> e vou colocar um link mandando para o google
+</p>
+<p>
+    Estou escrevendo o meu segundo <strong>parágrafo</strong> e o <a href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiGua7_lez2AhU1lZUCHeWVCCEQPAgI">meu link para o google é aki</a>
+</p>
+
+<!--Caracteres Reservados-->
+
+<p>
+    &nbsp;   <!-- ele pula no texto -->
+    &lt;&gt;  <!-- lt = little then  GT = greater then -->
+    &amp; <!-- Isso é para aparecer & no texto -->
+    &quot; <!-- isso é para abrir aspas no texto -->
+    &apos; <!-- Isso é para as aspas simples -->
+    Para pular espaços <br>
+    precisamos de Caracteres
+</p>
+
+<!--Anatomia de documento-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>rocketseat</title> <!-- isso troca o nome da página-->
+    </head>
+    <body>
+        <h1>Título</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi itaque. Reprehenderit obcaecati, earum magni nisi modi tempora laudantium quibusdam delectus quae, dignissimos sequi laboriosam fugit autem nostrum reiciendis asperiores.
+        </p>
+    </body>
+</html>
+
+<!-- se eu quiser o basico do html sem me encher a cabeça eu posso usar apenas o ! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!--Listas-->
+
+<h1>Sucos</h1>
+<h2>ingredientes:</h2>
+
+<ol>
+    <li>3 couve;</li>
+    <li>1 laranja;</li>
+    <li>1gengibre;</li>
+    <li>300 ml de agua;</li>
+    <li>sal;</li>
+    <li>açucar;</li>
+</ol>
+
+<ul>
+    <li>3 couve;</li>
+    <li>1 laranja;</li>
+    <li>1gengibre;</li>
+    <li>300 ml de agua;</li>
+    <li>sal;</li>
+    <li>açucar;</li>
+</ul>
+
+<!--Citações-->
+
+<blockquote></blockquote>
+<cite></cite>
+<code></code>
+<q></q>
+<!-- Todas essas coisas em cima podem ser usadas para fazer citações -->
+<blockquote cite="https://www.twitch.tv/">
+    Esse <strong> site <code>&lt;twitch&gt;</code></strong>
+</blockquote>
+
+<p>
+    De acordo com a <a href="https://www.twitch.tv/"><cite>página</cite></a>
+</p>
+
+<!--Abreviações-->
+
+<abbr title="Hypertex Markup Language">html</abbr>
+
+<!--Detalhe de contato-->
+
+<address>
+    <p>Regis Hyeon Ho Kim <br>
+        <strong>São Paulo, SP</strong>
+    </p>
+</address>
+
+<!--Lista de descrição-->
+
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um texto foda</dd> <!--Pode fazer quantos desses forem necessários.-->
+</dl>
+
+<!--Represetação de código-->
+
+<pre></pre>
+<code></code> <!--É melhor colocar o code dentro do pre-->
+
+<pre>
+    <code>
+        console.log("Regis")
+    </code>
+</pre>
+
+<!--Elementos Genéricos-->
+
+<div></div>
+<span></span>
+
+<div class="apple">
+    maçã
+</div>
+<span>qualquer </span> <span>texto</span>
+
+<div class="cart">
+    <span>Camiseta</span>
+    <span>R$ 100,00</span>
+
+</div>
+
+<!--Links-->
+
+<a href="" download="">Conteúdo</a>
+<a href="" target="_blank">Conteúdo</a>
+
+<p>Saiba mais</p>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+    <li><a href="#history">História</a></li>
+    <li><a href="#works">Trabalhos</a></li>
+</ul>
+
+<h1 id="about">Sobre mim</h1>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae doloribus incidunt veniam soluta sint rerum nemo dolorem tenetur sed labore repellendus asperiores recusandae, eius aliquid, distinctio veritatis odio ex.
+
+<h2 id="history">História</h2>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit enim fugiat modi natus ducimus! Doloribus distinctio quaerat, sed aspernatur temporibus illum aliquam ipsam ex facilis eaque at suscipit! Incidunt, dolor.
+
+<h2 id="works"> Trabalhos</h2>
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam dolorem perspiciatis vel ad necessitatibus quod? Veniam nihil praesentium eius consequuntur esse. Aut facere in consequuntur placeat vitae, iure fuga vel.
+
+<!--Caminhos e URLS-->
+
+<a href="Aula de html.html" target="_blank">Abrir Hyperlink</a><br>
+
+<a href="Aula de html.html" target="_self">Abrir Hyperlink</a> <!--o (_self) ele é para abrir no mesmo navegador-->
+
+<!--Como navegar pelos diretórios-->
+
+<p><a href="../uninove.html">arquivo em outra pasta</a></p>
+<a href="./Aula de html.html">arquivo no mesmo diretório </a><br>
+<a href="Aula de html.html">arquivo na mesma pasta</a><br>
+<a href="../uninovehtml/uninove.html">arquivo em outra pasta</a>
+
+<!--Caminho absoluto vs relativos-->
+
+<a href="google.com">google</a>
+<a href="https://google.com" target="_blank">ir para o google absoluto</a>
+
+<!--Tabelas-->
+
+<table>
+
+    <caption>Pessoas por Idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+        <tbody>
+        <tr>
+            <td>Mike</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>24</td>
+        </tr>
+        </tbody>
+       <tfoot>
+           <tr>
+               <td>Total:</td>
+               <td>2 Pessoas</td>
+           </tr>
+       </tfoot>
+
+</table>
+
+<!--Tabelas complexas-->
+
+<table>
+
+    <caption>produzidos x vendidos por loja</caption>
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Afonso Pena</th>
+                <th colspan="2" scope="colgroup">Antonio pereira</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td>
+                <td>30</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Baldes</th>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+                
+            </tr>
+        </tbody>
+</table>
