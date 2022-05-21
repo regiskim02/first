@@ -76,8 +76,4 @@ os três embaixo de uma palavra fica igual a dios #
 |1|Maçã|R$ 2,00|
 |123123|IPAD MILVEZ MAIS|R$ 30.000|
 
-em uma tabela colocar : faz com que fique mais pra esquerda ou pra direita ou centralizado.
-
-# Steam Guard
-- **r48471** regiskim98
-- **r33195** regiskikm987  
+em uma tabela colocar : faz com que fique mais pra esquerda ou pra direita ou centralizado. 
