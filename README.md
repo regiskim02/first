@@ -1,5 +1,4 @@
 # Olá esse projeto, eu fiz quando tava aprendendo markdown
-
 # Anime
 - Attack on Titan
   - Eren
@@ -50,8 +49,6 @@ https://www.youtube.com/watch?v=vZaldeUg6D0&ab_channel=AlfredBaudisch
 ![foto](https://i.ytimg.com/vi/G2dUz5P1_FU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD65C5XZisZ5zH0gxhdpzjcyWjJ6Q)
 
 ![][imagem]
-
-Vemos um Meliodas na sua forma mais primitiva:
 
 ![][imagem]
 
